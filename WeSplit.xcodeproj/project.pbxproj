@@ -94,8 +94,9 @@
 		E8A7F5DC2B94DF6E00F9DDDD /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				E8A7F6082B94DFEA00F9DDDD /* Models */,
+				E8A7F6072B94DFD600F9DDDD /* Views */,
 				E8A7F5DD2B94DF6E00F9DDDD /* WeSplitApp.swift */,
-				E8A7F5DF2B94DF6E00F9DDDD /* ContentView.swift */,
 				E8A7F5E12B94DF7000F9DDDD /* Assets.xcassets */,
 				E8A7F5E32B94DF7000F9DDDD /* Preview Content */,
 			);
@@ -125,6 +126,21 @@
 				E8A7F5FA2B94DF7000F9DDDD /* WeSplitUITestsLaunchTests.swift */,
 			);
 			path = WeSplitUITests;
+			sourceTree = "<group>";
+		};
+		E8A7F6072B94DFD600F9DDDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7F5DF2B94DF6E00F9DDDD /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8A7F6082B94DFEA00F9DDDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
